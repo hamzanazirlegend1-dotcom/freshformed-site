@@ -1,0 +1,157 @@
+<!doctype html>
+<html lang="en-GB">
+<head>
+<meta charset="utf-8">
+<meta name="viewport" content="width=device-width, initial-scale=1">
+<title>FreshFormed – new UK companies in your area, in your inbox every morning</title>
+<meta name="description" content="Daily email of newly incorporated UK companies filtered by postcode area and industry. Official Companies House data, delivered before 8am. From £9 a month, cancel any time.">
+<style>
+:root { --acc:#1F4E5F; --ink:#222; --mute:#666; --bg:#f6f6f4; }
+* { box-sizing:border-box; }
+body { margin:0; font-family: Arial, Helvetica, sans-serif; color:var(--ink); background:#fff; line-height:1.5; }
+header { background:var(--acc); color:#fff; padding:18px 24px; display:flex; justify-content:space-between; align-items:center; }
+header b { font-size:22px; }
+header a { color:#dce6ea; text-decoration:none; font-size:14px; margin-left:18px; }
+.wrap { max-width:960px; margin:0 auto; padding:0 24px; }
+.hero { padding:56px 0 36px; }
+h1 { font-size:40px; line-height:1.15; margin:0 0 14px; }
+h1 span { color:var(--acc); }
+.lead { font-size:19px; color:var(--mute); max-width:720px; }
+.cta { display:inline-block; background:var(--acc); color:#fff; padding:14px 26px; border-radius:8px; text-decoration:none; font-weight:bold; margin:18px 12px 0 0; }
+.cta.alt { background:#fff; color:var(--acc); border:2px solid var(--acc); }
+.stats { background:var(--bg); padding:28px 0; margin-top:30px; }
+.stats .grid { display:grid; grid-template-columns:repeat(auto-fit,minmax(170px,1fr)); gap:14px; }
+.stat { background:#fff; border:1px solid #e3e3e3; border-radius:8px; padding:14px 16px; }
+.stat b { font-size:28px; display:block; color:var(--acc); }
+.stat small { color:var(--mute); }
+section { padding:40px 0; border-bottom:1px solid #eee; }
+h2 { font-size:26px; margin:0 0 14px; }
+.steps { display:grid; grid-template-columns:repeat(auto-fit,minmax(240px,1fr)); gap:18px; }
+.step { border-left:4px solid var(--acc); padding:4px 0 4px 16px; }
+.step b { display:block; margin-bottom:4px; }
+table { border-collapse:collapse; width:100%; font-size:14px; }
+th, td { text-align:left; padding:8px 10px; border-bottom:1px solid #e5e5e5; vertical-align:top; }
+th { background:#f0f0f0; }
+.plans { display:grid; grid-template-columns:repeat(auto-fit,minmax(250px,1fr)); gap:18px; }
+.plan { border:1px solid #e3e3e3; border-radius:10px; padding:22px; }
+.plan.best { border-color:var(--acc); box-shadow:0 0 0 2px var(--acc) inset; }
+.plan .price { font-size:34px; font-weight:bold; color:var(--acc); }
+.plan .price small { font-size:14px; color:var(--mute); font-weight:normal; }
+.plan ul { padding-left:18px; color:#333; }
+.plan .cta { display:block; text-align:center; margin:14px 0 0; }
+.faq dt { font-weight:bold; margin-top:14px; }
+.faq dd { margin:4px 0 0; color:#333; }
+footer { padding:30px 0 50px; color:var(--mute); font-size:13px; }
+.who { display:grid; grid-template-columns:repeat(auto-fit,minmax(200px,1fr)); gap:10px 24px; }
+.who div { padding:8px 0; border-bottom:1px dotted #ddd; }
+@media (max-width:640px){ h1{font-size:30px} header a{display:none} }
+</style>
+</head>
+<body>
+<header>
+<b>FreshFormed</b>
+<nav><a href="#how">How it works</a><a href="#pricing">Pricing</a><a href="#faq">FAQ</a><a href="#sample">Sample</a></nav>
+</header>
+<div class="wrap hero">
+<h1>Every new company in your area,<br><span>in your inbox before 8am.</span></h1>
+<p class="lead">Around 2,000 companies are registered at Companies House every working day. FreshFormed sends you the ones that matter to you: filtered by postcode area and industry, as a clean CSV, every morning. Reach them before anyone else does.</p>
+<a class="cta" href="#pricing">Start a 7-day free trial</a>
+<a class="cta alt" href="#sample">See a sample email</a>
+</div>
+<div class="stats">
+<div class="wrap">
+<div class="grid" id="stats">
+<div class="stat"><b>~2,000</b><small>new UK companies registered every working day</small></div>
+<div class="stat"><b>Before 8am</b><small>yesterday's list in your inbox, every morning</small></div>
+<div class="stat"><b>Daily</b><small>not weekly, not monthly: you get there first</small></div>
+<div class="stat"><b>Official</b><small>Companies House API, company data only</small></div>
+</div>
+</div>
+</div>
+<div class="wrap">
+<section id="how">
+<h2>How it works</h2>
+<div class="steps">
+<div class="step"><b>1. Pick your patch</b>Postcode areas (SE, E14, AL5…), industries by SIC code, or both. Change it any time by replying to an email.</div>
+<div class="step"><b>2. We watch the register</b>Every morning we pull the previous working day's incorporations straight from the Companies House API.</div>
+<div class="step"><b>3. You get the list</b>An email with the matches and a CSV attached: company name, number, type, SIC codes with descriptions, registered office, and a link to the register entry.</div>
+<div class="step"><b>4. You get there first</b>New companies need an accountant, a bank, insurance, a website, signage, a card machine. The first letter through the door usually wins.</div>
+</div>
+</section>
+<section>
+<h2>Who uses it</h2>
+<div class="who">
+<div>Accountants and bookkeepers</div>
+<div>Payroll and pension providers</div>
+<div>Business insurance brokers</div>
+<div>Web designers and marketing agencies</div>
+<div>Merchant services and card terminals</div>
+<div>Sign makers and printers</div>
+<div>Office space and co-working</div>
+<div>IT support and telecoms</div>
+<div>Business bank referrers</div>
+<div>Recruiters and HR consultants</div>
+<div>Commercial cleaning and facilities</div>
+<div>Anyone who sells to new businesses</div>
+</div>
+</section>
+<section id="sample">
+<h2>What you receive</h2>
+<p>Subject line: <em>FreshFormed: 23 new companies – SE London – 31 Oct 2026</em>. The email shows the first 40; the CSV holds them all.</p>
+<table>
+<tr><th>company_number</th><th>company_name</th><th>incorporated</th><th>type</th><th>sic_codes</th><th>sic_description</th><th>locality</th><th>postcode</th></tr>
+<tr><td>17400011</td><td>Mill Lane Software Limited</td><td>2026-10-30</td><td>ltd</td><td>62012</td><td>Business and domestic software development</td><td>London</td><td>EC2A 4NE</td></tr>
+<tr><td>17400014</td><td>Greenway Cafe Limited</td><td>2026-10-30</td><td>ltd</td><td>56102</td><td>Unlicensed restaurants and cafes</td><td>London</td><td>EC2A 4NE</td></tr>
+<tr><td>17400055</td><td>Mill Lane Consulting Limited</td><td>2026-10-31</td><td>ltd</td><td>70229</td><td>Management consultancy activities</td><td>London</td><td>E14 5AB</td></tr>
+</table>
+<p style="color:var(--mute);font-size:13px">Illustrative rows. Also included: address lines, region, country, status and the Companies House URL.</p>
+</section>
+<section id="pricing">
+<h2>Pricing</h2>
+<p>Monthly, no contract, cancel any time. 7-day free trial on every plan. Prices include VAT.</p>
+<p style="background:#eef4f6;border-left:4px solid var(--acc);padding:10px 14px">Founding offer: the first 20 subscribers get 50% off their first three months with code <b>FOUNDING</b> at checkout.</p>
+<div class="plans">
+<div class="plan">
+<div>Local</div>
+<div class="price">£9<small>/month</small></div>
+<ul><li>Up to 3 outward codes or 1 postcode area (e.g. SE1, SE11, SE17 or all of AL)</li><li>Optional industry filter</li><li>Daily email + CSV</li></ul>
+<a class="cta" href="mailto:hamzanazirlegend1@gmail.com?subject=FreshFormed%20free%20trial%20-%20Local&amp;body=Postcode%20areas%20and/or%20industries%20I%20want%3A%20">Start free trial</a>
+</div>
+<div class="plan best">
+<div>Regional – most popular</div>
+<div class="price">£19<small>/month</small></div>
+<ul><li>Up to 10 postcode areas (e.g. a whole county or region)</li><li>Optional industry filter</li><li>Daily or weekly digest</li></ul>
+<a class="cta" href="mailto:hamzanazirlegend1@gmail.com?subject=FreshFormed%20free%20trial%20-%20Regional&amp;body=Postcode%20areas%20and/or%20industries%20I%20want%3A%20">Start free trial</a>
+</div>
+<div class="plan">
+<div>National</div>
+<div class="price">£29<small>/month</small></div>
+<ul><li>All of the UK, filtered by up to 10 industries (SIC codes or whole divisions)</li><li>Daily or weekly digest</li><li>Up to 3 recipient addresses</li></ul>
+<a class="cta" href="mailto:hamzanazirlegend1@gmail.com?subject=FreshFormed%20free%20trial%20-%20National&amp;body=Postcode%20areas%20and/or%20industries%20I%20want%3A%20">Start free trial</a>
+</div>
+</div>
+<p style="margin-top:16px;color:var(--mute)">Need something else (several regions, bespoke fields, an API)? Email <a href="mailto:hamzanazirlegend1@gmail.com">hamzanazirlegend1@gmail.com</a>.</p>
+</section>
+<section id="faq" class="faq">
+<h2>Questions</h2>
+<dl>
+<dt>Where does the data come from?</dt>
+<dd>The official Companies House public register, through their API. Every row links to the register entry so you can check it.</dd>
+<dt>Is this personal data?</dt>
+<dd>No. We send company details only: name, number, type, SIC codes, registered office. We do not include directors, shareholders or anyone's home address. How you contact a company is your responsibility under PECR and GDPR; a letter to the registered office is the usual approach.</dd>
+<dt>How fresh is it?</dt>
+<dd>Each morning's email covers companies incorporated the previous working day. Monday's email covers Friday (and any weekend registrations).</dd>
+<dt>Can I change my filter?</dt>
+<dd>Yes, as often as you like. Reply to any alert email and it is changed the same day.</dd>
+<dt>What if a day has no matches?</dt>
+<dd>You still get a short email so you know the service ran, unless you ask us to skip empty days.</dd>
+<dt>How do I cancel?</dt>
+<dd>From your Payhip account page, or reply to any email. No notice period.</dd>
+</dl>
+</section>
+</div>
+<footer class="wrap">
+FreshFormed is an independent service and is not affiliated with Companies House. Data is reproduced under the Open Government Licence. &copy; FreshFormed.
+</footer>
+</body>
+</html>
